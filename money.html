@@ -4,22 +4,31 @@
 <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 </head>
 <body>
-<h1> WeWash </h1>
-<h2>Paying too much for clean clothes?</h2>
-<p>There's a problem with washing machines rentals. You pay more than buying outright, and you end up owning an old machine at the end of its life.</p>
-<p>We think we can do better: a washing machine for &pound;15 a month and no more. </p>
-<ul>
-<li>no contract</li>
-<li>no interest</li>
-<li>48 hour repairs and replacements</li>
-<li>regular supply of free laundry liquid</li>
-</ul>
-<p>Sounds good? We're working on this idea: to get involved, sign up for email updates</p>
-<form action="https://formspree.io/jayne.rutherford@coopdigital.co.uk"
-      method="POST">
-    <input type="email" name="email" placeholder="Email..."> 
-    <input type="hidden" name="_next" value="/we-wash/thank-you">
-    <input type="submit" value="Send">
-</form>
+<div class="we-wash-upper">
+    <img src="assets/logo-tag.svg"/>
+    <img src="assets/header.png" class="header-image" />
+    <div class="spacing">
+        <h2 class="heading">Paying too much for clean clothes?</h2>
+        <p class="content">There's a problem with washing machines rentals. You pay more than buying outright, and you end up owning an old machine at the end of its life.</p>
+        <p class="content">We think we can do better: a washing machine for &pound;15 a month and no more. </p>
+        <ul class="bullet">
+            <li class="content">no contract</li>
+            <li class="content">no interest</li>
+            <li class="content">48 hour repairs and replacements</li>
+            <li class="content">regular supply of free laundry liquid</li>
+        </ul>
+    </div>
+</div>
+<div class="we-wash-lower spacing">
+    <p class="content">Sounds good? We're working on this idea: to get involved, sign up for email updates</p>
+    <form action="https://formspree.io/jayne.rutherford@coopdigital.co.uk"
+          method="POST">
+        <input type="email" name="email" placeholder="Email..." class="content"> 
+        <input type="hidden" name="_next" value="/we-wash/thank-you">
+        <input type="submit" value="Register" class="content">
+    </form>
+    <p class="disclaimer">We will only use your email address to contact you about WeWash - we will keep it safe and private. We won't share it with anyone.</p>
+    <img src="assets/wash-icons.svg" />
+</div>
 </body>
 </html>
