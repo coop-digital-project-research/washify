@@ -2,13 +2,20 @@ html, body {
    margin: 0;
 }
 
-.we-wash-upper {
+.bg-black {
+    background-color: #0A1719;
+}
+
+.bg-light-blue {
     background-color: #EDF1F2;
 }
 
-.we-wash-lower {
-    background-color: #0A1719;
+.lower .content {
     color: white;
+}
+
+.lower .disclaimer {
+    color: #3FA3BA;
 }
 
 .spacing {
@@ -20,7 +27,29 @@ html, body {
     list-style-image: url("/we-wash/assets/bullet.svg");
 }
 
+.form {
+    font-size: 0;
+}
+
+.box {
+    height: 40px;
+}
+
+.email {
+    border-top-left-radius: 5pt;
+    border-bottom-left-radius: 5pt;
+    width: 80%;
+}
+
+.register {
+    border-top-right-radius: 5pt;
+    border-bottom-right-radius: 5pt;
+    background-color: #EA8F97;
+    width: 20%;
+}
+
 .header-image {
+    padding: 0px 20px 0px 30px;
     width: 100;
     height: 90;
 }
@@ -38,5 +67,4 @@ html, body {
 .disclaimer {
     font-family: 'Rubik Medium', sans-serif;
     font-size: 8pt;
-    color: #3FA3BA;
 }
