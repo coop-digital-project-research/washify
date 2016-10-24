@@ -1,4 +1,4 @@
-html {
+html, input {
     font-family: 'Rubik', sans-serif;
 }
 
@@ -15,20 +15,28 @@ html, body {
     margin: auto;
 }
 
-.half {
-    width: 75%;
+@media only screen and (min-width: 500px) {
+    .half {
+        width: 75%;
+    }
 }
 
 .logo {
     padding-bottom: 20px;
-    height: 112px;
-    width:218px;
+    width: 160px;
+}
+
+@media only screen and (min-width: 500px) {
+    .logo {
+        width: 218px;
+        height: 112px;
+    }
 }
 
 .header-image {
     padding-top: 20px;
     padding-right: 20px;
-    width:25%;
+    width: 25%;
     float: right;
 }
 
@@ -45,17 +53,29 @@ html, body {
 }
 
 .heading {
-    font-size: 48pt;
+    font-size: 24px;
     font-weight: bold;
     margin: 0px;
 }
 
+@media only screen and (min-width: 500px) {
+    .heading {
+        font-size: 48px;
+    }
+}
+
 .content {
-    font-size: 21pt;
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 500px) {
+    .content {
+        font-size: 21px;
+    }
 }
 
 .small-content {
-    font-size: 12pt;
+    font-size: 12px;
 }
 
 .item {
@@ -70,28 +90,40 @@ html, body {
     list-style-image: url("/washify/assets/bullet.svg");
 }
 
-.form {
-    font-size: 0;
-}
-
 .box {
     height: 40px;
     border-style: none;
+
+    font-size: 16px;
 }
 
 .email {
-    border-top-left-radius: 5pt;
-    border-bottom-left-radius: 5pt;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-radius: 0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
     width: 60%;
     padding-left: 10px;
+
+    -webkit-appearance: button;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .register {
-    border-top-right-radius: 5pt;
-    border-bottom-right-radius: 5pt;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-radius: 0;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
     background-color: #EA8F97;
     color: white;
     width: 40%;
+
+    -webkit-appearance: button;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .icons {
