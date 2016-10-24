@@ -65,7 +65,7 @@ html, body {
 }
 
 .bullet {
-    list-style-image: url("/we-wash/assets/bullet.svg");
+    list-style-image: url("/washify/assets/bullet.svg");
 }
 
 .form {
