@@ -45,30 +45,17 @@ html, body {
 }
 
 .heading {
-    font-size: 24pt;
+    font-size: 48pt;
     font-weight: bold;
     margin: 0px;
 }
 
 .content {
-    font-size: 18pt;
+    font-size: 21pt;
 }
 
 .small-content {
-    font-size: 10pt;
-}
-
-@media (min-width: 840px) {
-    .heading {
-        font-size: 48pt;
-    }
-    .content {
-        font-size: 24pt;
-    }
-
-    .small-content {
-        font-size: 12pt;
-    }
+    font-size: 12pt;
 }
 
 .item {
