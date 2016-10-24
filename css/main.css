@@ -51,7 +51,7 @@ html, body {
     font-size: 21pt;
 }
 
-.disclaimer {
+.small-content {
     font-family: 'Rubik', sans-serif;
     font-size: 12pt;
 }
@@ -88,7 +88,8 @@ html, body {
     border-top-right-radius: 5pt;
     border-bottom-right-radius: 5pt;
     background-color: #EA8F97;
-    width: 20%;
+    color: white;
+    width: 40%;
 }
 
 
