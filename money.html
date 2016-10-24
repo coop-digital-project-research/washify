@@ -3,35 +3,35 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 </head>
-<body class="body">
-<div class="upper">
+<body class="base">
+<div class="container">
     <img src="assets/logo-tag.svg" class="logo"/>
     <img src="assets/header.png" class="header-image" />
     <div class="half">
         <h2 class="heading">Paying too much for clean clothes?</h2>
+        <div class="default">
+            <p class="content">There's a problem with buying a washing machine in weekly payments. It costs more than buying outright, and you end up owning an old machine at the end of its life.</p>
+            <p class="content">We think we can do better: a washing machine for &pound;15 a month and no more.</p>
+            <ul class="bullet">
+                <li class="content item">no minimum contract period</li>
+                <li class="content item">no interest</li>
+                <li class="content item">regular supply of free laundry liquid</li>
+                <li class="content item">48 hour repairs or replacements</li>
+                <li class="content item">pay in cash or by direct debit</li>
+            </ul>
+        </div>
     </div>
-    <div class="default">
-        <p class="content">There's a problem with buying a washing machine in weekly payments. It costs more than buying outright, and you end up owning an old machine at the end of its life.</p>
-        <p class="content">We think we can do better: a washing machine for &pound;15 a month and no more.</p>
-        <ul class="bullet">
-            <li class="item">no minimum contract period</li>
-            <li class="item">no interest</li>
-            <li class="item">regular supply of free laundry liquid</li>
-            <li class="item">48 hour repairs or replacements</li>
-            <li class="item">pay in cash or by direct debit</li>
-        </ul>
+    <div class="sign-up default">
+        <p class="content">Sounds good? Sign up now</p>
+        <form action="https://formspree.io/jayne.rutherford@coopdigital.co.uk"
+              method="POST" class="form half">
+            <input type="email" name="email" placeholder="Email address..." class="box content email"> 
+            <input type="hidden" name="_next" value="/we-wash/thank-you">
+            <input type="submit" value="Register" class="box content register">
+        </form>
+        <p class="disclaimer half">We will only use your email address to contact you about Washify - we will keep it safe and private. We won't share it with anyone.</p>
+        <img src="assets/wash-icons.svg"/>
     </div>
-</div>
-<div class="lower default">
-    <p class="content">Sounds good? Sign up now</p>
-    <form action="https://formspree.io/jayne.rutherford@coopdigital.co.uk"
-          method="POST" class="form">
-        <input type="email" name="email" placeholder="Email address..." class="box content email"> 
-        <input type="hidden" name="_next" value="/we-wash/thank-you">
-        <input type="submit" value="Register" class="box content register">
-    </form>
-    <p class="disclaimer">We will only use your email address to contact you about WeWash - we will keep it safe and private. We won't share it with anyone.</p>
-    <img src="assets/wash-icons.svg"/>
 </div>
 </body>
 </html>

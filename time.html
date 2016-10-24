@@ -3,36 +3,36 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 </head>
-<body class="body">
-<div class="upper"> 
+<body class="base">
+<div class="container"> 
     <img src="assets/logo-tag.svg" class="logo"/>
     <img src="assets/header.png" class="header-image" />
     <div class="half">
         <h2 class="heading">A washing machine that lightens your load</h2>
+        <div class="default">
+            <p class="content">Buying a washing machine is a tough decision. Do you buy a cheap one that won't last long? Or spend a lot of money on a better one? You'll still have to pay to get it fixed, and it won't last forever.</p>
+            <p class="content">Wouldn't it be better to pass on the stress of maintaining your washing machine to someone else? And to get it regularly replaced with a refurbished machine - before it goes wrong?</p>
+            <p class="content">We think this is more like it:</p>
+            <ul class="bullet">
+                <li class="content item">&pound;15 a month flat fee</li>
+                <li class="content item">free laundry liquid and conditioner subscription straight to your door</li>
+                <li class="content item">no minimum contract period</li>
+                <li class="content item">48 hour repairs or replacement</li>
+                <li class="content item">a newly refurbished machine every 2 years</li>
+            </ul>
+        </div>
     </div>
-    <div class="default">
-        <p class="content">Buying a washing machine is a tough decision. Do you buy a cheap one that won't last long? Or spend a lot of money on a better one? You'll still have to pay to get it fixed, and it won't last forever.</p>
-        <p class="content">Wouldn't it be better to pass on the stress of maintaining your washing machine to someone else? And to get it regularly replaced with a refurbished machine - before it goes wrong?</p>
-        <p class="content">We think this is more like it:</p>
-        <ul class="bullet">
-            <li class="item">&pound;15 a month flat fee</li>
-            <li class="item">free laundry liquid and conditioner subscription straight to your door</li>
-            <li class="item">no minimum contract period</li>
-            <li class="item">48 hour repairs or replacement</li>
-            <li class="item">a newly refurbished machine every 2 years</li>
-        </ul>
+    <div class="sign-up default">
+        <p class="content">Sounds good? Sign up now</p>
+        <form action="https://formspree.io/jayne.rutherford@coopdigital.co.uk"
+              method="POST" class="form half">
+            <input type="email" name="email" placeholder="Email address..." class="box content email"> 
+            <input type="hidden" name="_next" value="/we-wash/thank-you">
+            <input type="submit" value="Register" class="box content register">
+        </form>
+        <p class="disclaimer half">We will only use your email address to contact you about Washify - we will keep it safe and private. We won't share it with anyone.</p>
+        <img src="assets/wash-icons.svg"/>
     </div>
-</div>
-<div class="lower default">
-    <p class="content">Sounds good? Sign up now</p>
-    <form action="https://formspree.io/jayne.rutherford@coopdigital.co.uk"
-          method="POST" class="form">
-        <input type="email" name="email" placeholder="Email address..." class="box content email"> 
-        <input type="hidden" name="_next" value="/we-wash/thank-you">
-        <input type="submit" value="Register" class="box content register">
-    </form>
-    <p class="disclaimer">We will only use your email address to contact you about WeWash - we will keep it safe and private. We won't share it with anyone.</p>
-    <img src="assets/wash-icons.svg"/>
 </div>
 </body>
 </html>

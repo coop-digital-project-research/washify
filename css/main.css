@@ -2,58 +2,67 @@ html, body {
    margin: 0;
 }
 
-.body, .lower {
-    background-color: #0A1719;
+.base {
+    background-color: #EDF1F2;
 }
 
-.upper {
-    background-color: #EDF1F2;
+.container {
+    max-width: 840px;
+    margin: auto;
+}
+
+.half {
+    width: 75%;
 }
 
 .logo {
     padding-bottom: 20px;
+    height: 112px;
+    width:218px;
 }
 
 .header-image {
-    padding: 0px 20px 0px 30px;
-    width: 100;
-    height: 90;
+    padding-top: 20px;
+    padding-right: 20px;
+    width:25%;
+    float: right;
+}
+
+.sign-up {
+    background-color: #0A1719;
+}
+
+.sign-up .content {
+    color: white;
+}
+
+.sign-up .disclaimer {
+    color: #3FA3BA;
 }
 
 .heading {
     font-family: 'RubikBold', sans-serif;
+    font-size: 48pt;
+    padding-left: 20px;
     margin: 0px;
 }
 
 .content {
-    font-family: 'Rubik Medium', sans-serif;
-}
-
-.item {
-    font-family: 'Rubik Medium Bold', sans-serif; 
-    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    font-size: 21pt;
 }
 
 .disclaimer {
-    font-family: 'Rubik Medium', sans-serif;
-    font-size: 8pt;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12pt;
 }
 
-.half {
-    padding: 0px 20px 0px 20px;
-    width: 50%;
+.item {
+    font-weight: bold;
 }
 
 .default {
     padding: 10px 20px 10px 20px;
-}
-
-.lower .content {
-    color: white;
-}
-
-.lower .disclaimer {
-    color: #3FA3BA;
 }
 
 .bullet {
@@ -72,7 +81,7 @@ html, body {
 .email {
     border-top-left-radius: 5pt;
     border-bottom-left-radius: 5pt;
-    width: 80%;
+    width: 60%;
     padding-left: 10px;
 }
 
