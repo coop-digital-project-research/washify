@@ -22,7 +22,7 @@
         <p class="content">Sounds good? Sign up now:</p>
         <form action="https://formspree.io/hellowashify@gmail.com"
               method="POST" class="form half">
-            <input type="email" name="email" placeholder="Email address..." class="box email" required><input type="submit" value="Register" class="box register">
+            <input type="email" name="email" placeholder="Email address..." class="box email" required><input type="submit" value="Register" class="box register" onclick="ga('send', 'event', 'button', 'clicked', 'register');">
             <input type="hidden" name="_next" value="thank-you">
         </form>
         <p class="small-content disclaimer half">We will only use your email address to contact you about Washify - we will keep it safe and private. We won't share it with anyone.</p>
