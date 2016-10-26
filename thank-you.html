@@ -15,7 +15,8 @@
     </div>
     <form action="https://formspree.io/hellowashify@gmail.com"
               method="POST" class="form half default">
-      <input type="textarea" name="suggestions" placeholder="Suggestions..." class="box" required><input type="submit" value="Submit" class="box">
+      <input type="textarea" name="suggestions" placeholder="Suggestions..." class="box" required><input type="submit" value="Submit" class="box" onclick="ga('send', 'event', 'button', 'clicked', 'submit');">
+      <input type="hidden" name="_next" value="/">
     </form>
 </div>
 <script>
