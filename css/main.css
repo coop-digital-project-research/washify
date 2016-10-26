@@ -100,18 +100,22 @@ h3 {
     font-size: 12px;
 }
 
-.item {
-    font-weight: 500;
-    text-indent: 0.6rem;
-}
-
 .default {
     padding: 10px 20px 10px 20px;
 }
 
 .bullet {
-    list-style-image: url("../assets/bullet.svg");
-    padding-left: 1rem;
+    padding-left: 0;
+    position: relative;
+}
+
+ul.bullet li {
+    list-style: none;
+    background: url("../assets/bullet.png") no-repeat;
+    background-size: 14px 14px;
+    background-position: 0 10px;
+    font-weight: 500;
+    text-indent: 1.8rem;
 }
 
 .box {
