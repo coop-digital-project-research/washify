@@ -89,6 +89,7 @@ html, body {
 
 .item {
     font-weight: 500;
+    text-indent: 0.6rem;
 }
 
 .default {
@@ -96,7 +97,8 @@ html, body {
 }
 
 .bullet {
-    list-style-image: url("assets/bullet.svg");
+    list-style-image: url("../assets/bullet.svg");
+    padding-left: 1rem;
 }
 
 .box {
