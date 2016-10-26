@@ -8,6 +8,17 @@ html, body {
     color: #0A1719;
 }
 
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+@media only screen and (min-width: 500px) {
+    h3 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
 .base {
     background-color: #EDF1F2;
 }
@@ -115,7 +126,7 @@ html, body {
     }
 }
 
-.email {
+input {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     -webkit-border-radius: 0;
@@ -129,7 +140,7 @@ html, body {
     appearance: none;
 }
 
-.register {
+input[type='submit'] {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     -webkit-border-radius: 0;
