@@ -1,6 +1,10 @@
+@font-face {
+    font-family: washifyFont;
+    src: url(../assets/Rubik-Regular.ttf);
+}
+
 html, input {
-    font-family: 'Rubik', sans-serif;
-    -webkit-font-variant-ligatures: no-common-ligatures;
+    font-family: 'washifyFont', sans-serif;
 }
 
 html, body {
