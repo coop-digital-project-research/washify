@@ -1,10 +1,18 @@
 @font-face {
-    font-family: washifyFont;
+    font-family: washifyRegular;
     src: url(../assets/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: washifyMedium;
+    src: url(../assets/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: washifyBold;
+    src: url(../assets/Rubik-Bold.ttf);
 }
 
 html, input {
-    font-family: 'washifyFont', sans-serif;
+    font-family: 'washifyRegular', sans-serif;
 }
 
 html, body {
@@ -14,13 +22,12 @@ html, body {
 }
 
 h3 {
+    font-family: 'washifyMedium', sans-serif;
     font-size: 16px;
-    font-weight: 500;
 }
 @media only screen and (min-width: 500px) {
     h3 {
         font-size: 24px;
-        font-weight: 500;
     }
 }
 
@@ -61,6 +68,7 @@ h3 {
 
 .sign-up {
     background-color: #0A1719;
+    margin-bottom: 10rem;
 }
 
 .sign-up .content {
@@ -77,10 +85,10 @@ h3 {
 }
 
 .heading {
+    font-family: 'washifyBold', sans-serif;
     font-size: 24px;
     margin: 0px;
     line-height: 1.2;
-    font-weight: 600;
 }
 
 @media only screen and (min-width: 500px) {
@@ -117,7 +125,7 @@ ul.bullet li {
     background: url("../assets/bullet.png") no-repeat;
     background-size: 14px 14px;
     background-position: 0 10px;
-    font-weight: 500;
+    font-family: 'washifyMedium', sans-serif;
     text-indent: 1.8rem;
 }
 
