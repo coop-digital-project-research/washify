@@ -1,0 +1,283 @@
+@font-face {
+    font-family: washifyRegular;
+    src: url(../assets/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: washifyMedium;
+    src: url(../assets/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: washifyBold;
+    src: url(../assets/Rubik-Bold.ttf);
+}
+
+html, input {
+    font-family: 'washifyRegular', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    line-height: 1.6;
+    color: #0A1719;
+    padding: 0;
+    margin: 0;
+}
+
+header, section {
+  padding: 2rem 0 6rem 0;
+}
+
+header {
+  background: #42A3B9;
+  padding-top: 0;
+}
+
+div.stagger {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+div.stagger.right ol, div.stagger.right ul {
+  padding-left: 50%;
+}
+
+div.stagger.left img {
+  position: absolute;
+  right: 0;
+}
+
+div.stagger img {
+  width: 30%;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+}
+
+div.stagger ol, div.stagger ul {
+  width: 50%;
+}
+
+
+
+header {
+  display: block;
+}
+
+section#better {
+  background-color: #f6edee;
+  border-bottom: dashed #EA8F97 2px;
+}
+
+section#how li, section#mind li, section#great li {
+  font-size: 21px;
+  margin-bottom: 0.6rem;
+}
+
+section#mind {
+  background: #e4e9ea;
+}
+
+ul.columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+ul.columns li {
+  font-family: 'washifyMedium', sans-serif;
+  flex: 1;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding: 1rem;
+}
+
+
+ul.columns li img {
+  max-width: 160px;
+  text-align: center;
+}
+
+ul.columns li div {
+  display: block;
+}
+
+ul.columns li:nth-child(1) div {
+  color: #EA8F97;
+}
+
+ul.columns li:nth-child(2) div {
+  color: #42A3B9;
+}
+
+ul.columns li:nth-child(3) div {
+  color: #42b993;
+}
+
+
+
+h3 {
+    font-family: 'washifyMedium', sans-serif;
+    font-size: 18px;
+}
+@media only screen and (min-width: 500px) {
+    h3 {
+        font-size: 30px;
+    }
+}
+
+.base {
+    background-color: #EDF1F2;
+}
+
+.container {
+    max-width: 840px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 500px) {
+    .half {
+        width: 80%;
+    }
+}
+
+.logo {
+    padding-bottom: 20px;
+    width: 160px;
+}
+
+@media only screen and (min-width: 500px) {
+    .logo {
+        width: 218px;
+        height: 112px;
+    }
+}
+
+.header-image {
+    padding-top: 20px;
+    padding-right: 20px;
+    width: 25%;
+    float: right;
+}
+
+.sign-up {
+    background-color: #0A1719;
+    min-height: 600px;
+}
+
+.sign-up .container {
+  padding-top: 2rem;
+}
+
+.sign-up h3 {
+  color: white;
+}
+
+.sign-up .content {
+    color: white;
+}
+
+.sign-up .disclaimer {
+    color: #3FA3BA;
+}
+
+.disclaimer {
+    max-width: 300px;
+    margin-bottom: 1rem;
+}
+
+.heading {
+    font-family: 'washifyBold', sans-serif;
+    font-size: 24px;
+    margin: 0px;
+    line-height: 1.2;
+}
+
+@media only screen and (min-width: 500px) {
+    .heading {
+        font-size: 48px;
+    }
+}
+
+.content {
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 500px) {
+    .content {
+        font-size: 21px;
+    }
+}
+
+.small-content {
+    font-size: 12px;
+}
+
+.default {
+    padding: 10px 20px 10px 20px;
+}
+
+.bullet {
+    padding-left: 0;
+    position: relative;
+}
+
+ul.bullet li {
+    list-style: none;
+    background: url("../assets/bullet.png") no-repeat;
+    background-size: 14px 14px;
+    background-position: 0 10px;
+    font-family: 'washifyMedium', sans-serif;
+    text-indent: 1.8rem;
+}
+
+.box {
+    height: 40px;
+    font-size: 16px;
+    border-style: none;
+}
+
+@media only screen and (min-width: 500px) {
+    .box {
+        height: 4.2rem;
+        font-size: 24px;
+    }
+}
+
+input {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-radius: 0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    width: 60%;
+    padding-left: 10px;
+
+    -webkit-appearance: button;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type='submit'] {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-radius: 0;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    background-color: #EA8F97;
+    color: white;
+    width: 40%;
+
+    -webkit-appearance: button;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.icons {
+    padding-bottom: 20px;
+}
+
