@@ -58,6 +58,14 @@ div.stagger ol, div.stagger ul {
   width: 50%;
 }
 
+img.res-img {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+img.subscription-item {
+  margin-bottom: 1rem;
+}
 
 
 header {
@@ -76,6 +84,10 @@ section#how li, section#mind li, section#great li {
 
 section#mind {
   background: #e4e9ea;
+}
+
+section#pricing img {
+  max-width: 100%;
 }
 
 ul.columns {
@@ -154,6 +166,17 @@ h3 {
         width: 218px;
         height: 112px;
     }
+}
+
+a.start {
+  display: inline-block;
+  background: #EA8F97;
+  width: auto;
+  font-size: 24px;
+  font-family: 'washifyMedium', sans-serif;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: white;
 }
 
 .header-image {
