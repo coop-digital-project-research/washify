@@ -63,6 +63,10 @@ img.res-img {
   width: 100%;
 }
 
+a.nudge {
+  margin-top: 4rem;
+}
+
 img.subscription-item {
   margin-bottom: 1rem;
 }
@@ -86,8 +90,9 @@ section#mind {
   background: #e4e9ea;
 }
 
-section#pricing img {
-  max-width: 100%;
+section#pricing {
+  background: #e4e9ea;
+
 }
 
 ul.columns {
