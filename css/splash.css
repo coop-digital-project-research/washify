@@ -184,6 +184,11 @@ a.start {
   color: white;
 }
 
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
 .header-image {
     padding-top: 20px;
     padding-right: 20px;
